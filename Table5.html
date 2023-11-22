@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_third</title>
+
+    <style type="text/CSS"> 
+    body,html{
+        width: 100vw;
+        height: 100vh; 
+       
+    } 
+    .ontainer_for_flex{
+          height: 100%;
+          width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+        table,th,td{
+             border: 1px solid black;
+             border-collapse: collapse;
+        
+        } 
+        .width{
+             width: 500px;
+        } 
+        #mark{
+            background-color: rgb(99, 160, 37);
+            color: white;
+        } 
+         /* tr:nth-child(even){
+             background-color: blueviolet;
+        }  
+        tr:nth-child(odd){
+             background-color: aqua;
+        } */  
+        td:nth-child(even){
+             background-color:rgb(200, 241, 160);
+        }  
+
+
+    </style>
+</head>
+<body> 
+
+<div class="ontainer_for_flex"> 
+    <div class="chaild">
+    <pre> 5. HTML Table Example-Fifth
+
+        Write a program to create HTML table having border and alternate columns background colors using CSS. Final output should be like this: 
+        
+         
+    </pre> 
+    <table class="width" >
+        <thead>
+            <tr>
+                <th id="mark" colspan="6">STUDENT MARK SHEET</th>
+            </tr>
+        </thead> 
+        <tbody> 
+        <tr>
+            <td>Name</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>General Knowledge</td>
+        </tr> 
+        <tr>
+            <td>David</td>
+            <td>85</td>
+            <td>87</td>
+            <td>92</td>
+            <td>88</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Richard</td>
+            <td>91</td>
+            <td>82</td>
+            <td>77</td>
+            <td>72</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>John</td>
+                <td>81</td>
+                <td>81</td>
+                <td>99</td>
+                <td>98</td>
+                <td>90</td>
+        </tr>
+        <tr>
+            <td>Tony</td>
+            <td>84</td>
+            <td>86</td>
+            <td>90</td>
+            <td>78</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>Scott</td>
+            <td>78</td>
+            <td>90</td>
+            <td>89</td>
+            <td>78</td>
+            <td>100</td>
+        </tr>
+      
+    </tbody>
+    </table> 
+</div>
+</div>
+</body>
+</html>
